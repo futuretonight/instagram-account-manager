@@ -553,7 +553,8 @@ class EnhancedInstagramManager:
             "https": f"http://{proxy}"
         }
         # Primarily test against Instagram login
-        test_url = self.platform_urls["login"]
+        test_url = "https://httpbin.org/ip"
+        
 
         try:
             start_time = time.time()
