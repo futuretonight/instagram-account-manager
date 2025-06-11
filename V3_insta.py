@@ -161,6 +161,7 @@ DEFAULT_SETTINGS = {
     "use_persistent_browser_profiles": False, # When True, uses unique user-data-dirs for each driver launch.
     "cleanup_persistent_profiles": True,      # When True, deletes user-data-dirs after use (or on exit)
     "debug_pause_duration_on_fail": 0, # Seconds to pause on failure; 0=no pause, <0=indefinite (manual resume)
+    
 # === NEW ACCOUNT AGING/BEHAVIOR SETTINGS ===
     "enable_account_aging": True,      # Whether to perform aging actions after creation
     "min_age_action_delay_sec": 3.0,   # Min delay between individual aging actions

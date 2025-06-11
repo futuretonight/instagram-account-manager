@@ -1,5 +1,0 @@
-requests
-selenium
-webdriver-manager
-fake-useragent
-selenium-stealth
